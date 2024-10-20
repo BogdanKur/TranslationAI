@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="saturatedYellow">#DF9F1F</color>
+    <color name="paleOrangeYellow">#EECD8A</color>
+    <color name="brown">#1C1404</color>
+    <color name="motherOfPearlDarkGrey">#848483</color>
+    <color name="whiteAluminum">#ADACAB</color>
+    <color name="brownishGrey">#503D33</color>
+    <color name="startsTextColor">#808080</color>
+    <color name="darkGray">#18181A</color>
+</resources>

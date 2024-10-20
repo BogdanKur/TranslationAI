@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/motherOfPearlDarkGrey">
+
+    <Button
+        android:id="@+id/btnSelectResultOfSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/histrory_ll_background"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvCurrentLanguageText"
+            android:paddingHorizontal="10dp"
+            android:gravity="start|center"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/tvTargetLanguageText"
+            android:paddingHorizontal="10dp"
+            android:gravity="start|center"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/tvTargetAbbrCode"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+</FrameLayout>

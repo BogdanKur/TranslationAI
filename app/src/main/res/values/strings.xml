@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TranslationAI</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etEnterText">Введите текст</string>
+    <string name="tvTranslate">Перевод</string>
+    <string name="tvOrigin">Оригинал:</string>
+    <string name="tvTranslateText">Перевод:</string>
+</resources>

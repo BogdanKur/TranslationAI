@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.TranslationAI" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
+    <style name="Theme.TranslationAI" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="AppSearchViewStyle" parent="Theme.AppCompat.Light.NoActionBar"/>
+</resources>

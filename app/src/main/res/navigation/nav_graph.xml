@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        tools:layout="@layout/fragment_main"
+        android:name="com.example.translationai.MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_currentLanguageFragment"
+            app:destination="@id/currentLanguageFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_targetLanguageFragment"
+            app:destination="@id/targetLanguageFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_historyFragment"
+            app:destination="@id/historyFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/currentLanguageFragment"
+        tools:layout="@layout/fragment_current_language"
+        android:name="com.example.translationai.CurrentLanguageFragment">
+        <action
+            android:id="@+id/action_currentLanguageFragment_to_mainFragment"
+            app:destination="@id/mainFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/targetLanguageFragment"
+        tools:layout="@layout/fragment_target_language"
+        android:name="com.example.translationai.TargetLanguageFragment">
+        <action
+            android:id="@+id/action_targetLanguageFragment_to_mainFragment"
+            app:destination="@id/mainFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        tools:layout="@layout/fragment_history"
+        android:name="com.example.translationai.HistoryFragment">
+        <action
+            android:id="@+id/action_historyFragment_to_readTranslateFragment"
+            app:destination="@id/readTranslateFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/readTranslateFragment"
+        tools:layout="@layout/fragment_read_translate"
+        android:name="com.example.translationai.ReadTranslateFragment">
+        <action
+            android:id="@+id/action_readTranslateFragment_to_mainFragment"
+            app:destination="@id/mainFragment"/>
+    </fragment>
+
+</navigation>
